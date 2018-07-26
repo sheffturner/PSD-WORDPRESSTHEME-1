@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+#container{
+    height: 100%;
+    background: #e3e3e3;
+}
+
+#sidebar-nav{
+    width: 20%;
+    height: 100%;
+    background: #242b2e;
+}
+
+#sidebar-header .logo{
+    margin: 0;
+    background: url("/images/logo.png") no-repeat;
+    text-indent: -10000px;
+    width: 118px;
+    height: 61px;
+    margin: 0 auto;
+}
+
+#sidebar-header
+{
+    background-color: #fff;
+    padding: 30px 0;
+}
+
+#sidebar-nav h2{
+    text-indent: -10000px;
+    height: 0;
+    margin: 0;
+}
+
+#sidebar-nav nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#sidebar-nav nav li{
+
+    background: -webkit-linear-gradient(top, rgb(51, 59, 62) 0%, rgb(51, 59, 62) 25%, rgb(51, 59, 62) 100%);
+    background: -o-linear-gradient(top, rgb(51, 59, 62) 0%, rgb(51, 59, 62) 25%, rgb(51, 59, 62) 100%);
+    background: -ms-linear-gradient(top, rgb(51, 59, 62) 0%, rgb(51, 59, 62) 25%, rgb(51, 59, 62) 100%);
+    background: -moz-linear-gradient(top, rgb(51, 59, 62) 0%, rgb(51, 59, 62) 25%, rgb(51, 59, 62) 100%);
+    background: linear-gradient(to bottom, rgb(51, 59, 62) 0%, rgb(51, 59, 62) 25%, rgb(51, 59, 62) 100%);
+
+    height: 40px;
+    width: 100%;
+    border-bottom: 1px solid #293034;
+    padding-bottom: 10px;
+    
+      
+}
+
+#sidebar-nav nav li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    display: block;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+    line-height: 34px;
+    text-align: right;
+}
+
+#sidebar-nav nav li.current,
+#sidebar-nav nav li a:hover{
+    background: -webkit-linear-gradient(top, rgb(49, 189, 187) 0%, rgb(45, 185, 183) 17%, rgb(24, 163, 161) 100%);
+    background: -o-linear-gradient(top, rgb(49, 189, 187) 0%, rgb(45, 185, 183) 17%, rgb(24, 163, 161) 100%);
+    background: -ms-linear-gradient(top, rgb(49, 189, 187) 0%, rgb(45, 185, 183) 17%, rgb(24, 163, 161) 100%);
+    background: -moz-linear-gradient(top, rgb(49, 189, 187) 0%, rgb(45, 185, 183) 17%, rgb(24, 163, 161) 100%);
+    background: linear-gradient(to bottom, rgb(49, 189, 187) 0%, rgb(45, 185, 183) 17%, rgb(24, 163, 161) 100%);
+}
+li.current{
+    background: -webkit-linear-gradient(top, rgb(49, 189, 187) 0%, rgb(45, 185, 183) 17%, rgb(24, 163, 161) 100%);
+}
+
+#sidebar-footer{
+    margin-top: 70px;
+    padding: 0;
+} 
+
+
+#sidebar-footer ul{
+    list-style-type: none;
+    padding: 0;
+    float:right;
+}
+
+#sidebar-footer li{
+    background: url("/images/social-icons.jpg") no-repeat;
+    width: 24px;
+    height: 24px;
+    float: left;
+    text-indent: -10000px;
+    margin-right: 10px;
+}
+
+#sidebar-footer a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#sidebar-footer p{
+    clear: both;
+    display: block;
+    padding: 10px 10px;
+    font-size: 12px;
+    line-height: 24.5px;
+    text-align: right;
+    color: #6b7072;
+}
+
+#sidebar-footer li:nth-child(1){
+    background-position: -33px 0px;
+}
+#sidebar-footer li:nth-child(2){
+    background-position: -67px 0px;
+}
+#sidebar-footer li:nth-child(3){
+    background-position: -100px 0px;
+}
+#sidebar-footer li:nth-child(4){
+    background-position: -167px 0px;
+}
+#sidebar-footer li:nth-child(5){
+    background-position: -201px 0px;
+}
+
+
+
